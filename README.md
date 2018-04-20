@@ -20,17 +20,23 @@ optional arguments:
 
 Examples:
 $ python3 ping_sweep.py 192.168.1.0/24
+
 192.168.1.2  :  Host Alive  :  ** UKNOWN **
+
 192.168.1.3  :  Host Alive  :  my_laptop
+
 192.168.1.4  :  Host Alive  :  my_computer
+
 
 $ python3 ping_sweep.py 192.168.1.0/24
+
 192.168.1.2  :  Host Alive  :  ** UKNOWN **
+
 192.168.1.3  :  Host Alive  :  my_laptop
+
 192.168.1.4  :  Host Alive  :  my_computer
+
 192.168.1.5  :  Host Unreachable  :  ** UNKNOWN **
-
-
 
 
 ## ToDo
